@@ -1,0 +1,6 @@
+Algorithm,Brain_N_L_1,Brain_N_L_1_ratio,Brain_N_L_half,Brain_N_L_half_ratio,Brain_N_L_max,Brain_N_L_max_ratio,Torso_N_L_1,Torso_N_L_1_ratio,Torso_N_L_half,Torso_N_L_half_ratio,Torso_N_L_max,Torso_N_L_max_ratio,Synthetic_N_L_1,Synthetic_N_L_1_ratio,Synthetic_N_L_half,Synthetic_N_L_half_ratio,Synthetic_N_L_max,Synthetic_N_L_max_ratio,Mouse_N_L_1,Mouse_N_L_1_ratio,Mouse_N_L_half,Mouse_N_L_half_ratio,Mouse_N_L_max,Mouse_N_L_max_ratio,Pinky_N_L_1,Pinky_N_L_1_ratio,Pinky_N_L_half,Pinky_N_L_half_ratio,Pinky_N_L_max,Pinky_N_L_max_ratio
+MC,0.00,1.00,0.10,1.98,0.25,2.37,0.00,1.00,0.20,1.24,0.28,1.48,0.01,1.00,0.58,1.77,1.36,2.72,0.02,1.00,8.42,2.28,15.93,3.18,8.00,1.00,8.00,1.00,13.09,1.00
+FE,0.02,19.00,0.10,1.86,0.25,2.36,0.09,46.00,0.17,1.09,0.25,1.31,0.14,18.74,0.54,1.65,1.39,2.78,1.16,66.11,8.28,2.24,17.12,3.41,8.20,1.03,10.89,1.36,13.08,1.00
+MMSN,1.85,1890.88,1.85,35.78,1.85,17.32,8.99,4604.22,8.99,56.27,8.99,47.65,14.40,1945.41,14.40,44.19,14.40,28.72,128.23,7295.07,128.43,34.77,128.43,25.60,,,,,,
+FESN,0.02,19.28,0.08,1.52,0.17,1.56,0.09,45.73,0.21,1.32,0.26,1.38,0.14,19.09,0.46,1.42,0.76,1.52,1.16,66.20,5.51,1.49,7.78,1.55,8.21,1.03,12.84,1.61,16.57,1.27
+OSSN,0.02,20.00,0.05,1.00,0.11,1.00,0.09,46.29,0.16,1.00,0.19,1.00,0.14,18.90,0.33,1.00,0.50,1.00,1.16,66.21,3.69,1.00,5.02,1.00,8.20,1.03,10.89,1.36,13.06,1.00

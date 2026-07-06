@@ -1,0 +1,38 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10494
+  date: 2026-07-05T05:46:37-0400
+  input-file: /ccs/home/spyridon97/Data/Torso.vti
+  num-threads: 1
+  num-input-points: 83908315
+  num-input-cells: 83279904
+  num-max-labels: 92
+  num-requested-labels: 92
+  dataset-memory-used: 189440
+  experiments:
+    - algorithm-name: MMSN
+      num-output-points: 1514784
+      num-output-cells: 3031268
+      first-run-time: 11.0955
+	Command being timed: "/lustre/orion/csc143/scratch/spyridon97/vtk-discrete-isocontouring-evaluation/build/vtk-discrete-isocontouring-evaluation -i /ccs/home/spyridon97/Data/Torso.vti -t 1 -l 92 --mmsn -n 0"
+	User time (seconds): 10.43
+	System time (seconds): 1.49
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9618884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2420683
+	Voluntary context switches: 10319
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

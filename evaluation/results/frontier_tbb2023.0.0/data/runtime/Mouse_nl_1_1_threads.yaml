@@ -1,0 +1,236 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10494
+  date: 2026-07-05T09:55:52-0400
+  input-file: /ccs/home/spyridon97/Data/Mouse.vti
+  num-threads: 1
+  num-input-points: 1203840000
+  num-input-cells: 1200370459
+  num-max-labels: 687
+  num-requested-labels: 1
+  dataset-memory-used: 2377728
+  experiments:
+    - algorithm-name: MC
+      num-output-points: 26120
+      num-output-cells: 52232
+      first-run-time: 4.37152
+      trials:
+        - trial-index: 0
+          seconds-surface-extraction: 4.35386
+          seconds-surface-smoothing: 0.0156672
+          seconds-total: 4.36953
+        - trial-index: 1
+          seconds-surface-extraction: 4.35152
+          seconds-surface-smoothing: 0.015676
+          seconds-total: 4.36719
+        - trial-index: 2
+          seconds-surface-extraction: 4.3507
+          seconds-surface-smoothing: 0.0156729
+          seconds-total: 4.36637
+        - trial-index: 3
+          seconds-surface-extraction: 4.35129
+          seconds-surface-smoothing: 0.015676
+          seconds-total: 4.36696
+        - trial-index: 4
+          seconds-surface-extraction: 4.35094
+          seconds-surface-smoothing: 0.0156901
+          seconds-total: 4.36663
+        - trial-index: 5
+          seconds-surface-extraction: 4.35092
+          seconds-surface-smoothing: 0.0156751
+          seconds-total: 4.3666
+        - trial-index: 6
+          seconds-surface-extraction: 4.35173
+          seconds-surface-smoothing: 0.0156741
+          seconds-total: 4.36741
+        - trial-index: 7
+          seconds-surface-extraction: 4.35119
+          seconds-surface-smoothing: 0.0156922
+          seconds-total: 4.36688
+        - trial-index: 8
+          seconds-surface-extraction: 4.3511
+          seconds-surface-smoothing: 0.0157092
+          seconds-total: 4.36681
+        - trial-index: 9
+          seconds-surface-extraction: 4.35102
+          seconds-surface-smoothing: 0.016453
+          seconds-total: 4.36748
+    - algorithm-name: FE
+      num-output-points: 26120
+      num-output-cells: 52232
+      first-run-time: 1.85624
+      trials:
+        - trial-index: 0
+          seconds-surface-extraction: 1.84138
+          seconds-surface-smoothing: 0.0156701
+          seconds-total: 1.85705
+        - trial-index: 1
+          seconds-surface-extraction: 1.84408
+          seconds-surface-smoothing: 0.015702
+          seconds-total: 1.85978
+        - trial-index: 2
+          seconds-surface-extraction: 1.8431
+          seconds-surface-smoothing: 0.015682
+          seconds-total: 1.85878
+        - trial-index: 3
+          seconds-surface-extraction: 1.84116
+          seconds-surface-smoothing: 0.015918
+          seconds-total: 1.85708
+        - trial-index: 4
+          seconds-surface-extraction: 1.84317
+          seconds-surface-smoothing: 0.0156929
+          seconds-total: 1.85886
+        - trial-index: 5
+          seconds-surface-extraction: 1.84223
+          seconds-surface-smoothing: 0.015708
+          seconds-total: 1.85794
+        - trial-index: 6
+          seconds-surface-extraction: 1.84192
+          seconds-surface-smoothing: 0.015682
+          seconds-total: 1.8576
+        - trial-index: 7
+          seconds-surface-extraction: 1.84234
+          seconds-surface-smoothing: 0.015723
+          seconds-total: 1.85807
+        - trial-index: 8
+          seconds-surface-extraction: 1.84195
+          seconds-surface-smoothing: 0.0157011
+          seconds-total: 1.85765
+        - trial-index: 9
+          seconds-surface-extraction: 1.84316
+          seconds-surface-smoothing: 0.015717
+          seconds-total: 1.85888
+    - algorithm-name: MMSN
+      num-output-points: 26124
+      num-output-cells: 52240
+      first-run-time: 221.591
+      trials:
+        - trial-index: 0
+          seconds-surface-extraction: 61.6239
+          seconds-surface-smoothing: 159.72
+          seconds-total: 221.344
+        - trial-index: 1
+          seconds-surface-extraction: 60.7892
+          seconds-surface-smoothing: 160.909
+          seconds-total: 221.698
+        - trial-index: 2
+          seconds-surface-extraction: 61.2192
+          seconds-surface-smoothing: 160.706
+          seconds-total: 221.926
+        - trial-index: 3
+          seconds-surface-extraction: 60.8821
+          seconds-surface-smoothing: 161.046
+          seconds-total: 221.929
+        - trial-index: 4
+          seconds-surface-extraction: 60.727
+          seconds-surface-smoothing: 161.089
+          seconds-total: 221.815
+        - trial-index: 5
+          seconds-surface-extraction: 60.7161
+          seconds-surface-smoothing: 160.892
+          seconds-total: 221.608
+        - trial-index: 6
+          seconds-surface-extraction: 60.7367
+          seconds-surface-smoothing: 160.977
+          seconds-total: 221.714
+        - trial-index: 7
+          seconds-surface-extraction: 60.8486
+          seconds-surface-smoothing: 160.905
+          seconds-total: 221.753
+        - trial-index: 8
+          seconds-surface-extraction: 60.7502
+          seconds-surface-smoothing: 160.895
+          seconds-total: 221.645
+        - trial-index: 9
+          seconds-surface-extraction: 60.7257
+          seconds-surface-smoothing: 160.915
+          seconds-total: 221.64
+    - algorithm-name: FESN
+      num-output-points: 26124
+      num-output-cells: 52240
+      first-run-time: 3.16452
+      trials:
+        - trial-index: 0
+          seconds-surface-extraction: 1.5742
+          seconds-surface-smoothing: 1.58795
+          seconds-total: 3.16215
+        - trial-index: 1
+          seconds-surface-extraction: 1.57276
+          seconds-surface-smoothing: 1.58656
+          seconds-total: 3.15931
+        - trial-index: 2
+          seconds-surface-extraction: 1.57394
+          seconds-surface-smoothing: 1.58295
+          seconds-total: 3.15689
+        - trial-index: 3
+          seconds-surface-extraction: 1.57259
+          seconds-surface-smoothing: 1.58777
+          seconds-total: 3.16036
+        - trial-index: 4
+          seconds-surface-extraction: 1.57323
+          seconds-surface-smoothing: 1.58683
+          seconds-total: 3.16006
+        - trial-index: 5
+          seconds-surface-extraction: 1.57368
+          seconds-surface-smoothing: 1.58654
+          seconds-total: 3.16022
+        - trial-index: 6
+          seconds-surface-extraction: 1.57281
+          seconds-surface-smoothing: 1.58824
+          seconds-total: 3.16105
+        - trial-index: 7
+          seconds-surface-extraction: 1.57456
+          seconds-surface-smoothing: 1.58763
+          seconds-total: 3.1622
+        - trial-index: 8
+          seconds-surface-extraction: 1.57466
+          seconds-surface-smoothing: 1.58725
+          seconds-total: 3.16191
+        - trial-index: 9
+          seconds-surface-extraction: 1.57443
+          seconds-surface-smoothing: 1.58668
+          seconds-total: 3.16111
+    - algorithm-name: OSSN
+      num-output-points: 26124
+      num-output-cells: 52240
+      first-run-time: 3.32828
+      trials:
+        - trial-index: 0
+          seconds-surface-extraction: 1.54346
+          seconds-surface-smoothing: 1.70875
+          seconds-total: 3.25222
+        - trial-index: 1
+          seconds-surface-extraction: 1.70182
+          seconds-surface-smoothing: 1.70923
+          seconds-total: 3.41104
+        - trial-index: 2
+          seconds-surface-extraction: 1.54312
+          seconds-surface-smoothing: 1.70732
+          seconds-total: 3.25044
+        - trial-index: 3
+          seconds-surface-extraction: 1.54789
+          seconds-surface-smoothing: 1.55162
+          seconds-total: 3.09951
+        - trial-index: 4
+          seconds-surface-extraction: 1.69897
+          seconds-surface-smoothing: 1.54755
+          seconds-total: 3.24652
+        - trial-index: 5
+          seconds-surface-extraction: 1.69892
+          seconds-surface-smoothing: 1.6262
+          seconds-total: 3.32512
+        - trial-index: 6
+          seconds-surface-extraction: 1.5383
+          seconds-surface-smoothing: 1.62674
+          seconds-total: 3.16504
+        - trial-index: 7
+          seconds-surface-extraction: 1.53757
+          seconds-surface-smoothing: 1.54847
+          seconds-total: 3.08603
+        - trial-index: 8
+          seconds-surface-extraction: 1.69836
+          seconds-surface-smoothing: 1.54769
+          seconds-total: 3.24605
+        - trial-index: 9
+          seconds-surface-extraction: 1.69342
+          seconds-surface-smoothing: 1.54793
+          seconds-total: 3.24135

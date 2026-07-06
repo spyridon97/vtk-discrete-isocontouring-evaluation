@@ -1,0 +1,20 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10356
+  date: 2026-07-08T07:11:21-0400
+  input-file: /ccs/home/spyridon97/Data/Brain.vti
+  num-threads: 1
+  num-input-points: 16777216
+  num-input-cells: 16581375
+  num-max-labels: 312
+  num-requested-labels: 156
+  dataset-memory-used: 58368
+  experiments:
+    - algorithm-name: OSSN
+      non-manifold-stats:
+        num-manifold: 452745
+        num-solvable-non-manifold: 4995
+        num-unsolvable-non-manifold: 910
+        total: 458650
+      num-output-points: 468696
+      num-output-cells: 948568
+      first-run-time: 0.432453

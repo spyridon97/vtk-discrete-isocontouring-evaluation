@@ -1,0 +1,4 @@
+Algorithm,Brain,Brain_ratio,Torso,Torso_ratio,Synthetic,Synthetic_ratio,Mouse,Mouse_ratio,Pinky,Pinky_ratio
+FE,0.01,1.00,0.02,1.00,0.02,1.00,0.14,1.00,0.89,1.00
+FESN,0.01,1.74,0.10,5.67,0.13,5.37,0.91,6.42,5.48,6.13
+OSSN,0.01,1.76,0.09,5.16,0.12,5.00,0.87,6.08,5.34,5.98

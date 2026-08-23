@@ -1,0 +1,20 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10489
+  date: 2026-07-06T19:43:20-0400
+  input-file: /ccs/home/spyridon97/Data/Torso.vti
+  num-threads: 1
+  num-input-points: 83908315
+  num-input-cells: 83279904
+  num-max-labels: 92
+  num-requested-labels: 92
+  dataset-memory-used: 189440
+  experiments:
+    - algorithm-name: OSSN
+      non-manifold-stats:
+        num-manifold: 1395836
+        num-solvable-non-manifold: 9101
+        num-unsolvable-non-manifold: 257
+        total: 1405194
+      num-output-points: 1423408
+      num-output-cells: 2865300
+      first-run-time: 1.47293

@@ -1,0 +1,4 @@
+Metric,Brain_N_L_1,Brain_N_L_half,Brain_N_L_max,Torso_N_L_1,Torso_N_L_half,Torso_N_L_max,Synthetic_N_L_1,Synthetic_N_L_half,Synthetic_N_L_max,Mouse_N_L_1,Mouse_N_L_half,Mouse_N_L_max,Pinky_N_L_1,Pinky_N_L_half,Pinky_N_L_max
+Manifold (%),100.000,98.713,97.382,99.712,99.488,99.334,99.275,99.599,99.625,100.000,98.912,98.651,99.845,99.887,99.888
+Solvable Non-Manifold (%),0.000,1.089,2.115,0.288,0.497,0.648,0.725,0.300,0.213,0.000,0.833,0.910,0.155,0.112,0.110
+Unsolvable Non-Manifold (%),0.000,0.198,0.503,0.000,0.015,0.018,0.000,0.101,0.162,0.000,0.255,0.439,0.000,0.001,0.002

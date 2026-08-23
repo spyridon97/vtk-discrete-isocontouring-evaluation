@@ -1,0 +1,20 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10356
+  date: 2026-07-08T07:11:47-0400
+  input-file: /ccs/home/spyridon97/Data/Mouse.vti
+  num-threads: 1
+  num-input-points: 1203840000
+  num-input-cells: 1200370459
+  num-max-labels: 687
+  num-requested-labels: 1
+  dataset-memory-used: 2377728
+  experiments:
+    - algorithm-name: OSSN
+      non-manifold-stats:
+        num-manifold: 26124
+        num-solvable-non-manifold: 0
+        num-unsolvable-non-manifold: 0
+        total: 26124
+      num-output-points: 26124
+      num-output-cells: 52240
+      first-run-time: 3.76547

@@ -1,0 +1,20 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10489
+  date: 2026-07-06T19:44:42-0400
+  input-file: /ccs/home/spyridon97/Data/Pinky.vti
+  num-threads: 1
+  num-input-points: 8589934592
+  num-input-cells: 8577357823
+  num-max-labels: 254
+  num-requested-labels: 254
+  dataset-memory-used: 16803044
+  experiments:
+    - algorithm-name: OSSN
+      non-manifold-stats:
+        num-manifold: 69710521
+        num-solvable-non-manifold: 76516
+        num-unsolvable-non-manifold: 1489
+        total: 69788526
+      num-output-points: 69941570
+      num-output-cells: 139740074
+      first-run-time: 143.816

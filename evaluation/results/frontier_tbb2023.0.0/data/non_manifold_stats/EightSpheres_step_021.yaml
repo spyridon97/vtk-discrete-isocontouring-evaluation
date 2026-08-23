@@ -1,0 +1,20 @@
+- vtk-version: 9.7.0.rc3
+  hostname: frontier10358
+  date: 2026-07-06T12:15:39-0400
+  input-file: eight-spheres
+  num-threads: 1
+  num-input-points: 2097152
+  num-input-cells: 2048383
+  num-max-labels: 8
+  num-requested-labels: 8
+  dataset-memory-used: 28416
+  experiments:
+    - algorithm-name: OSSN
+      non-manifold-stats:
+        num-manifold: 98879
+        num-solvable-non-manifold: 108
+        num-unsolvable-non-manifold: 103
+        total: 99090
+      num-output-points: 99306
+      num-output-cells: 200358
+      first-run-time: 0.294639
